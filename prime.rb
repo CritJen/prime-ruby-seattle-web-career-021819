@@ -3,7 +3,7 @@ def prime? (number)
   while counter > 1
   if number.abs == 2 || number.abs == 3
     true
-  else number % counter == 0
+  else number.abs % counter == 0
       false
     end
   counter -= 1
