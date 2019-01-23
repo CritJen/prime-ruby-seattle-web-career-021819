@@ -1,4 +1,5 @@
 def prime? (number)
+  puts number.abs
   counter = (number).abs - 1
   if number.abs == 1
     false
