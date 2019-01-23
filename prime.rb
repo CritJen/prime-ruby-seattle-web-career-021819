@@ -1,4 +1,4 @@
-def prime? (interger)
+def prime? (integer)
   counter = integer -1
   while counter >1
     if interger % counter == 0
