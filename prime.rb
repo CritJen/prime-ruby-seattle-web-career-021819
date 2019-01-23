@@ -1,6 +1,6 @@
 def prime? (number)
   counter = (number).abs - 1
-  if number.abs == 1
+  if number.abs <= 1
     return false
   end
   while counter > 1
