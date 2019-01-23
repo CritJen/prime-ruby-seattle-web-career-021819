@@ -1,5 +1,5 @@
 def prime? (number)
-  counter = (number).abs -1
+  counter = (number).abs - 1
   while counter > 1
   if number % counter == 0
       false
