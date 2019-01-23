@@ -9,5 +9,5 @@ def prime? (number)
     end
   counter -= 1
 end
-true
+return true
 end
