@@ -1,9 +1,7 @@
 def prime? (number)
   counter = (number).abs -1
   while counter > 1
-  if number == 3
-    true
-  elsif number % counter == 0
+  if number % counter == 0
       false
     end
   counter -= 1
