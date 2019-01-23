@@ -6,3 +6,5 @@ def prime? (integer)
     end
   counter -= 1
 end
+true
+end
