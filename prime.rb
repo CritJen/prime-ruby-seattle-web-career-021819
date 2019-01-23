@@ -5,7 +5,7 @@ def prime? (number)
   end
   while counter > 1
   if number % counter == 0
-      false
+      return false
     end
   counter -= 1
 end
