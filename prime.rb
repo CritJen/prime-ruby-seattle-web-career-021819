@@ -3,7 +3,7 @@ def prime? (number)
   while counter > 1
   if number == 3
     true
-  else number % counter == 0
+  else if number % counter == 0
       false
     end
   counter -= 1
